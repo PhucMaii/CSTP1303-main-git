@@ -1,0 +1,15 @@
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\1303Day2.csproj.AssemblyReference.cache
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\1303Day2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\1303Day2.AssemblyInfoInputs.cache
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\1303Day2.AssemblyInfo.cs
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\1303Day2.csproj.CoreCompileInputs.cache
+C:\Users\000461754\source\repos\1303Day2\1303Day2\bin\Debug\net6.0\1303Day2.exe
+C:\Users\000461754\source\repos\1303Day2\1303Day2\bin\Debug\net6.0\1303Day2.deps.json
+C:\Users\000461754\source\repos\1303Day2\1303Day2\bin\Debug\net6.0\1303Day2.runtimeconfig.json
+C:\Users\000461754\source\repos\1303Day2\1303Day2\bin\Debug\net6.0\1303Day2.dll
+C:\Users\000461754\source\repos\1303Day2\1303Day2\bin\Debug\net6.0\1303Day2.pdb
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\1303Day2.dll
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\refint\1303Day2.dll
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\1303Day2.pdb
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\1303Day2.genruntimeconfig.cache
+C:\Users\000461754\source\repos\1303Day2\1303Day2\obj\Debug\net6.0\ref\1303Day2.dll
