@@ -47,6 +47,9 @@ namespace ConsoleApp1
 
             program.PrintUserArray(userArr);
 
+            var argPassing = new ArgumentPassing();
+            argPassing.RunTest();
+
         }
 
         public void PrintUserArray(User[] users)
