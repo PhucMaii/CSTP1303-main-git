@@ -11,11 +11,12 @@ namespace Assignment2
             
             Program program = new Program();
 
+            // For testing
             program.addUser(userArr, "Bin");
             program.addUser(userArr, "Test1");
             program.addUser(userArr, "Test2");
-            program.addUser(userArr, "Test3");
-            program.addUser(userArr, "Test5");
+            program.addUser(userArr, "Test3"); 
+            program.addUser(userArr, "Test4");
 
 
             program.deleteUserById(userArr, 2);
@@ -23,6 +24,7 @@ namespace Assignment2
 
             program.getUserById(userArr, 1);
             program.getUserByName(userArr, "Test4");
+
             program.PrintUser(userArr);
         }
 
