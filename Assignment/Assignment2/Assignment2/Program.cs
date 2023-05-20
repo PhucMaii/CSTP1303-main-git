@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.FileIO;
+using System;
+using System.Transactions;
 using System.Xml.Linq;
 
 namespace Assignment2
@@ -11,21 +13,67 @@ namespace Assignment2
             
             Program program = new Program();
 
-            // For testing
-            program.addUser(userArr, "Bin");
-            program.addUser(userArr, "Test1");
-            program.addUser(userArr, "Test2");
-            program.addUser(userArr, "Test3"); 
-            program.addUser(userArr, "Test4");
+
+            int option = 0;
+            Console.WriteLine("Welcome to our program, please enter a number below:");
+            Console.WriteLine("1. Add User");
+            Console.WriteLine("2. Get User By Id");
+            Console.WriteLine("3. Get User By Name");
+            Console.WriteLine("4. Delete User By Id");
+            Console.WriteLine("5. Delete User By Name");
+            Console.WriteLine("6. Print All Users");
+
+            bool isContinue = false;
+
+            while(!isContinue)
+            {
+                Console.WriteLine("Enter a Number!!!");
+
+                string input = Console.ReadLine();
+                int.TryParse(input, out option);
 
 
-            program.deleteUserById(userArr, 2);
-            program.deleteUserByName(userArr, "Binn");
-
-            program.getUserById(userArr, 1);
-            program.getUserByName(userArr, "Test4");
-
-            program.PrintUser(userArr);
+                switch (option)
+                {
+                    case 1:
+                        Console.WriteLine("You choose to add User! Please enter user name");
+                        string userName = Console.ReadLine();
+                        program.addUser(userArr, userName);
+                        Console.WriteLine("Add User Successfully!");
+                        break;
+                    case 2:
+                        Console.WriteLine("You choose to get user by Id! Please enter user id");
+                        string userIdStr = Console.ReadLine();
+                        int.TryParse(userIdStr, out int userId);
+                        program.getUserById(userArr, userId);
+                        break;
+                    case 3:
+                        Console.WriteLine("You choose to get user by name! Please enter user name");
+                        string name = Console.ReadLine();
+                        program.getUserByName(userArr, name);
+                        break;
+                    case 4:
+                        Console.WriteLine("You choose to delete user by id! Please enter user id");
+                        string idStr = Console.ReadLine();
+                        int.TryParse(idStr, out int id);
+                        program.deleteUserById(userArr, id);
+                        break;
+                    case 5:
+                        Console.WriteLine("You choose to delete user by name! Please enter user name");
+                        string deleteName = Console.ReadLine();
+                        program.deleteUserByName(userArr, deleteName);
+                        break;
+                    case 6:
+                        Console.WriteLine("You choose to print all users");
+                        program.PrintUser(userArr);
+                        break;
+                    default:
+                        Console.WriteLine("You choose to exit!");
+                        isContinue = true;
+                        break;
+                }
+            }
+        
         }
 
         public void PrintUser(User[] userArr)
@@ -34,7 +82,7 @@ namespace Assignment2
             {
                 if (userArr[i] != null)
                 {
-                    Console.WriteLine($"{userArr[i].name}");
+                    Console.WriteLine($"{userArr[i].id}. {userArr[i].name}");
                 }
 
             }
