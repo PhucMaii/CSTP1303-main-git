@@ -109,10 +109,24 @@ namespace ConsoleApp1
                 for(int j = 0; j < matrix.GetLength(1); j++)
                 {
                     matrix[i, j] = (i * 3) + j;
+                    Console.WriteLine($"{matrix[i, j]}");
                 }
             }
 
 
+        }
+
+        public void TestMultiDimensionalJaggedArray()
+        {
+            int[][] matrix = new int[3][];
+            for(int i = 0; i < matrix.Length; i++)
+            {
+                matrix[i] = new int[3];
+                for(int j = 0; j < matrix[i].Length; j++)
+                {
+                    matrix[i][j] = i * 3 + j;
+                }
+            }
         }
     }
 }
