@@ -1,0 +1,15 @@
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\Labs4.csproj.AssemblyReference.cache
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\Labs4.GeneratedMSBuildEditorConfig.editorconfig
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\Labs4.AssemblyInfoInputs.cache
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\Labs4.AssemblyInfo.cs
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\Labs4.csproj.CoreCompileInputs.cache
+D:\000461754\Labs\Labs4\Labs4\bin\Debug\net6.0\Labs4.exe
+D:\000461754\Labs\Labs4\Labs4\bin\Debug\net6.0\Labs4.deps.json
+D:\000461754\Labs\Labs4\Labs4\bin\Debug\net6.0\Labs4.runtimeconfig.json
+D:\000461754\Labs\Labs4\Labs4\bin\Debug\net6.0\Labs4.dll
+D:\000461754\Labs\Labs4\Labs4\bin\Debug\net6.0\Labs4.pdb
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\Labs4.dll
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\refint\Labs4.dll
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\Labs4.pdb
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\Labs4.genruntimeconfig.cache
+D:\000461754\Labs\Labs4\Labs4\obj\Debug\net6.0\ref\Labs4.dll
