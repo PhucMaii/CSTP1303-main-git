@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace week6
 {
-    public class FrameworkGenericCollection
+    internal class TestDelegate
     {
-        public void TestDictionaty()
-        {
-            
-        }
     }
 }

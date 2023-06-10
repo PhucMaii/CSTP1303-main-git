@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace week6
 {
-    internal class Node
+    public class BTNode<T>
     {
+        public T Data { get; set; }
+
+        public BTNode<T> Left { get; set; }
+
+        public BTNode<T> Right { get; set; }
+
+
     }
 }
