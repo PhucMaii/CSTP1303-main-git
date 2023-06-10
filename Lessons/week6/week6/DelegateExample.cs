@@ -24,6 +24,18 @@ namespace week6
         {
             return side * side;
         }
+
+
+        public int[] TransformArray(int[] values, TransformInt transformer)
+        {
+            var result = new int[values.Length];
+            for(int i = 0; i < values.Length; i++)
+            {
+                result[i] = transformer(values[i]);
+            }
+
+            return result;
+        }
     }
 
 }

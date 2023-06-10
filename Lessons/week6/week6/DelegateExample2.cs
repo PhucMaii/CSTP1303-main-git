@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace week6
 {
-    internal class DelegateExample2
+    public class DelegateExample2
     {
+        private string prefix = "% complete";
+
+        public void ProgressReporter(int percentComplete)
+        {
+            Console.WriteLine($"{this.prefix}{percentComplete}");
+        }
     }
 }
