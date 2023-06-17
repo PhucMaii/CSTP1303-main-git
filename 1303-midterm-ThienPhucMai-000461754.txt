@@ -1,5 +1,5 @@
 1. C) A special method named with the class name
-2. 
+2. D) Maximize cohesion to improve dependencies between classes.
 3. A) All of these.
 4. C) Customer currentCustomer = new Customer();
 5. A) A class that cannot be changed.
