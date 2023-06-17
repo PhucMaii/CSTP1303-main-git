@@ -1,0 +1,113 @@
+1. C) A special method named with the class name
+2. 
+3. A) All of these.
+4. C) Customer currentCustomer = new Customer();
+5. A) A class that cannot be changed.
+6. D) All of the above
+7. B) throw new Exception();
+8. D) Stack
+9. public void parentFunction() {
+	Program program = new Program();
+	program.insideFunction("Bin");
+
+}
+
+public void insideFunction(string s) {
+	s = s.Trim();
+	if(s == "" || s == null) {
+		throw new Exception("Invalid String");
+	}
+
+	Console.WriteLine(s);
+}
+
+10. public abstract class Vehicle {
+	private int numberOfWheels;
+	private int maxSpeed;
+
+	public Vehicle(int wheel, int mSpeed) {
+		this.numberOfWheel = wheel;
+		this.maxSpeed = mSpeed;
+	}
+
+	public virtual int GetNumberOfWheels() {
+		return this.numberOfWheels;
+	}
+
+	public virutal int GetMaxSpeed() {
+		return this.maxSpeed;
+	}		
+
+}
+
+public class Motorcycle : Vehicle {
+	public Motorcycle(int numWheels, int mSpeed) 
+		: base(numWheels, mSpeed){}
+	
+	public override int GetNumberOfWheels() {
+		return this.numberOfWheels;
+	}
+
+	public override int GetMaxSpeed() {
+		return this.maxSpeed;
+	}
+
+}
+
+public class Car: Vehicle {
+	public Car(int numWheels, int mSpeed) 
+		: base(numWheels, mSpeed){}
+
+	public override int GetNumberOfWheels() {
+		return this.numberOfWheels;
+	}
+
+	public override int GetMaxSpeed() {
+		return this.maxSpeed;
+	}
+}
+
+public class Program{
+	static void Main(string[] args) {
+		Motorcycle m1 = new Motorcycle(2, 200);
+		Console.WriteLine($"Motorcycle Wheels: {m1.GetNumberOfWheels()} Max Speed: {m1.GetMaxSpeed()}")		
+		Car c1 = new Car(4, 400);
+		Console.WriteLine($"Car Wheels: {c1.GetNumberOfWheels()} Max Speed: {c1.GetMaxSpeed()}")	
+		
+	
+	}
+	
+
+}
+
+
+11. public class Stack{
+	private int size;
+	private int position;
+	private int[] items;
+
+	public Stack(int size) {
+		this.size = size;
+		items = new int[size];
+
+	}
+	
+	public int Peek() {
+		return items[position++];
+	}
+	
+
+	public int Pop() {
+		return items[--position];
+
+	}
+
+	public void Push(int num) {
+		for(int i = 0; i < size; ++i) {
+			if(items[i] == 0) {
+				items[i] = num;
+				return;
+			}
+		}
+	}
+}
