@@ -7,11 +7,9 @@ namespace Lab5
         static void Main(string[] args)
         {
             LinkedList<int> list = new LinkedList<int>();
-            list.AddTail(new LinkedListNode<int>(85));
-            list.AddTail(new LinkedListNode<int>(19));
-            list.AddTail(new LinkedListNode<int>(20));
-            list.AddTail(new LinkedListNode<int>(1));
-            list.AddTail(new LinkedListNode<int>(38));
+            list.AddTail(new LinkedListNode<int>(56));
+            list.AddTail(new LinkedListNode<int>(24));
+            list.AddTail(new LinkedListNode<int>(101));
 
 
 
