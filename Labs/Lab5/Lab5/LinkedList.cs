@@ -65,6 +65,19 @@
         /// </summary>
         public void RemoveTail()
         {
+            LinkedListNode<T> current = this.Head;
+            LinkedListNode<T> previous = null;
+
+            while (current != null)
+            {
+                previous = current;
+                current = current.Next;
+            }
+
+            previous.Next = null;
+            this.Tail = previous;
+
+            --this.count;
 
         }
 
