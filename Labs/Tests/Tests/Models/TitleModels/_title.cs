@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Tests.Models.TitleModels
 {
-    internal class _department
+    public enum _title
     {
+        Manager,
+        Developer,
+        Engineer,
+        Sales,
+        Work,
+        Home
     }
 }

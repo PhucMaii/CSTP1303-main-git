@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Tests
 {
-    internal class ContactManager
+    public class ContactManager
     {
+        private Dictionary<string, object> Contacts;
+
+        public ContactManager()
+        {
+            Contacts = new Dictionary<string, object>();    
+        }
+
+
+
     }
 }
