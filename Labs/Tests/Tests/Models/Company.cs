@@ -7,12 +7,23 @@ using Tests.Models.TitleModels;
 
 namespace Tests.Models
 {
-    public class Company
+    public class Company : Contacts
     {
-        private string name;
-        private string address;
-        private Dictionary<string, DepartmentContact> DepartmentContacts;
         private Dictionary<string, Person> Employees;
-        
+
+        public Company(string name, string address) : base(name, address)
+        {
+        }
+
+        public override void Display()
+        {
+            Console.WriteLine("*************");
+            Console.WriteLine("Person Details:");
+            Console.WriteLine("Name: " + Name);
+            Console.WriteLine("Address: " + Address);
+            DisplayContactList();
+            Console.WriteLine("*************");
+        }
     }
 }
+`
