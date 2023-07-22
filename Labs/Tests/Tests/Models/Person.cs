@@ -1,24 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using Tests.Models.TitleModels;
 
-namespace Abstraction
+namespace Tests.Models
 {
-<<<<<<< HEAD:Labs/Tests/Abstraction/ICompany.cs
-    public interface ICompany
+    public class Person : Contacts
     {
-        public string Id { get; }
-        public string Name { get; set; }
-=======
-    public class Company : Contacts
-    {
-        private Dictionary<string, Person> Employees;
-
-        public Company(string name, string address) : base(name, address)
+        private int Age;
+        public Person(string name, string address, int age) : base(name, address)
         {
+            Age = age;
         }
 
         public override void Display()
@@ -27,9 +23,9 @@ namespace Abstraction
             Console.WriteLine("Person Details:");
             Console.WriteLine("Name: " + Name);
             Console.WriteLine("Address: " + Address);
+            Console.WriteLine("Age: " + Age);
             DisplayContactList();
             Console.WriteLine("*************");
         }
->>>>>>> 1ae21ffe1d2fcadafe30dc6939bc1d63344e5e14:Labs/Tests/Tests/Models/Company.cs
     }
 }
