@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ContactStore
+namespace Abstractions
 {
-    public class Entity
+    internal interface IContact
     {
-        private int Id { get; }
-        private string Name { get; set; }
     }
 }

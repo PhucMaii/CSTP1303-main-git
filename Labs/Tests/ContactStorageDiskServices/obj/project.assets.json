@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abstractions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Abstraction/Abstractions.csproj",
+      "msbuildProject": "../Abstraction/Abstractions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Abstractions >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\000461754\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\Abstractions.csproj": {
+              "projectPath": "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\Abstractions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

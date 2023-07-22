@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ContactStore
+namespace Abstractions
 {
-    public class LegalEntity : Entity
+    internal interface IStorage
     {
-        private string Email;
-        private string Phone;
     }
 }
