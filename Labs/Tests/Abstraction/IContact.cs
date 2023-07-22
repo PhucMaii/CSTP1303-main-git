@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Abstractions
 {
-    internal interface IContact
+    public interface IContact
     {
+        public string Id { get; }
+        public string Name { get; set; }
     }
 }

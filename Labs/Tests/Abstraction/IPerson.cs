@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Abstractions
 {
-    internal interface IPerson
+    public interface IPerson : IContact
     {
+        public string EmailAddress { get;  }
     }
 }

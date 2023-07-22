@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Abstractions
 {
-    internal interface IStorage
+    public interface IStorage
     {
+        void Add(ICompany company);
+        ICompany GetCompany();
+        void Update(ICompany company);
+        void Delete(ICompany company);
+
+        void Add(IPerson person);
+        IPerson GetPerson();
+        void UpdatePerson(IPerson person);
+        void DeletePerson(IPerson person);
     }
 }

@@ -1,0 +1,15 @@
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\StreamIntroduction.csproj.AssemblyReference.cache
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\StreamIntroduction.GeneratedMSBuildEditorConfig.editorconfig
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\StreamIntroduction.AssemblyInfoInputs.cache
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\StreamIntroduction.AssemblyInfo.cs
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\StreamIntroduction.csproj.CoreCompileInputs.cache
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\bin\Debug\net6.0\StreamIntroduction.exe
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\bin\Debug\net6.0\StreamIntroduction.deps.json
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\bin\Debug\net6.0\StreamIntroduction.runtimeconfig.json
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\bin\Debug\net6.0\StreamIntroduction.dll
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\bin\Debug\net6.0\StreamIntroduction.pdb
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\StreamIntroduction.dll
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\refint\StreamIntroduction.dll
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\StreamIntroduction.pdb
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\StreamIntroduction.genruntimeconfig.cache
+D:\000461754\C#\Lessons\Week10\StreamIntroduction\StreamIntroduction\obj\Debug\net6.0\ref\StreamIntroduction.dll

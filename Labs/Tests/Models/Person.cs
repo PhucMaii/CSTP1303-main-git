@@ -1,4 +1,5 @@
-﻿using ContactStore;
+﻿using Abstractions;
+using ContactStore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +8,13 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Person : Contact
+    public class Person : Contact, IPerson
     {
-        private int Age;
+        public string EmailAddress { get;}    
+        public Person(string id, string name, string email) : base(id, name) 
+        {
+            EmailAddress = email;
+        }
     }
+
 }

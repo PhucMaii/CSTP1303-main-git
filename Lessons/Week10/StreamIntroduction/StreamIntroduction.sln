@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamIntroduction", "..\..\Lessons\Week10\StreamIntroduction\StreamIntroduction\StreamIntroduction.csproj", "{FFF5D9DA-4B1D-483A-9CE9-1AE1A69D566F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF5D9DA-4B1D-483A-9CE9-1AE1A69D566F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF5D9DA-4B1D-483A-9CE9-1AE1A69D566F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF5D9DA-4B1D-483A-9CE9-1AE1A69D566F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF5D9DA-4B1D-483A-9CE9-1AE1A69D566F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66995946-0C75-4D6B-8A36-759BA4F3C0F2}
+	EndGlobalSection
+EndGlobal
