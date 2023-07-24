@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Tests/1.0.0": {
+        "dependencies": {
+          "ContactStorageDiskService": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "Tests.dll": {}
+        }
+      },
+      "Abstractions/1.0.0": {
+        "runtime": {
+          "Abstractions.dll": {}
+        }
+      },
+      "ContactStorageDiskService/1.0.0": {
+        "dependencies": {
+          "Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "ContactStorageDiskService.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "dependencies": {
+          "Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ContactStorageDiskService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

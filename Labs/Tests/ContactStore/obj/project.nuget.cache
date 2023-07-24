@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2T2Z0qzdSp7px8tHaRqhYImxhUPJAT6Q7ra9rxEclTHkvZuBoGnFTqIwtIWSBObBOmhgVUysZwS8icAuuZ/B8w==",
+  "dgSpecHash": "bx6yX+RxgZ8MiNlS8Uhn0FS7MDajVPAX6DQ91Lmz+4Pkx75vFsCeHRkim2dH4AsP1CvYiGKCQqMjz6n4gjASLA==",
   "success": true,
-  "projectFilePath": "D:\\000461754\\C#\\Labs\\Tests\\ContactStore\\ContactStore.csproj",
+  "projectFilePath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactStore\\ContactStore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

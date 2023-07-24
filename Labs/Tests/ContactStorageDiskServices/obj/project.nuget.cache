@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QTYWWcItT4tQEgjY6xhyY/n0rhFi2lq00mCTDUQlxg4/8z+cJb0MRLt+DIufMysQ2xQEdZIwdSC1IYE28o6KxA==",
+  "dgSpecHash": "02+YAZ+D0EA+zEtSpS/BkWDz7IXKmwlPdsXUowEHL+OIXR1/5nMObn1kEqFTCzeP1P7ok7akbhkQJe0nwRXIeg==",
   "success": true,
-  "projectFilePath": "D:\\000461754\\C#\\Labs\\Tests\\ContactStorageDiskServices\\ContactStorageDiskService.csproj",
+  "projectFilePath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactStorageDiskServices\\ContactStorageDiskService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

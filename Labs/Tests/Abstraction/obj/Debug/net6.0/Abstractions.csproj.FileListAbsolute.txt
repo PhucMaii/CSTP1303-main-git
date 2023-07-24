@@ -1,0 +1,15 @@
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\Abstractions.csproj.AssemblyReference.cache
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\Abstractions.AssemblyInfoInputs.cache
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\Abstractions.AssemblyInfo.cs
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\bin\Debug\net6.0\Abstractions.exe
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\bin\Debug\net6.0\Abstractions.deps.json
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\bin\Debug\net6.0\Abstractions.runtimeconfig.json
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\bin\Debug\net6.0\Abstractions.dll
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\bin\Debug\net6.0\Abstractions.pdb
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\Abstractions.dll
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\refint\Abstractions.dll
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\Abstractions.pdb
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\Abstractions.genruntimeconfig.cache
+C:\Users\Bin\Documents\StudyInVCC\C#\CSTP1303-main-git\Labs\Tests\Abstraction\obj\Debug\net6.0\ref\Abstractions.dll

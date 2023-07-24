@@ -1,30 +1,87 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abstractions.dll": {}
+        }
+      },
+      "ContactStorageDiskService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ContactStorageDiskService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactStorageDiskService.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Abstraction/Abstractions.csproj",
+      "msbuildProject": "../Abstraction/Abstractions.csproj"
+    },
+    "ContactStorageDiskService/1.0.0": {
+      "type": "project",
+      "path": "../ContactStorageDiskServices/ContactStorageDiskService.csproj",
+      "msbuildProject": "../ContactStorageDiskServices/ContactStorageDiskService.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Abstractions >= 1.0.0",
+      "ContactStorageDiskService >= 1.0.0",
+      "Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\000461754\\.nuget\\packages\\": {},
+    "C:\\Users\\Bin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\000461754\\C#\\Labs\\Tests\\ContactManager\\ContactManagerConsole.csproj",
+      "projectUniqueName": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactManager\\ContactManagerConsole.csproj",
       "projectName": "ContactManagerConsole",
-      "projectPath": "D:\\000461754\\C#\\Labs\\Tests\\ContactManager\\ContactManagerConsole.csproj",
-      "packagesPath": "C:\\Users\\000461754\\.nuget\\packages\\",
-      "outputPath": "D:\\000461754\\C#\\Labs\\Tests\\ContactManager\\obj\\",
+      "projectPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactManager\\ContactManagerConsole.csproj",
+      "packagesPath": "C:\\Users\\Bin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\000461754\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -39,7 +96,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\Abstractions.csproj"
+            },
+            "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactStorageDiskServices\\ContactStorageDiskService.csproj": {
+              "projectPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactStorageDiskServices\\ContactStorageDiskService.csproj"
+            },
+            "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -67,7 +134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

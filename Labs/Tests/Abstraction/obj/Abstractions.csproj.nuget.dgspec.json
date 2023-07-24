@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\Abstractions.csproj": {}
+    "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\Abstractions.csproj": {}
   },
   "projects": {
-    "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\Abstractions.csproj": {
+    "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\Abstractions.csproj",
         "projectName": "Abstractions",
-        "projectPath": "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\Abstractions.csproj",
-        "packagesPath": "C:\\Users\\000461754\\.nuget\\packages\\",
-        "outputPath": "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\obj\\",
+        "projectPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Bin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\000461754\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

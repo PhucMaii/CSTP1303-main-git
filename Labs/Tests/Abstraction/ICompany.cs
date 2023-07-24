@@ -8,7 +8,9 @@ namespace Abstractions
 {
     public interface ICompany : IContact
     {
-        public string _id { get; }
-        public string _name { get; set; }
+
+        public void AddDepartment(IDepartment department);  
+        public void RemoveDepartment(string dName);
+        public IDepartment GetDepartment(string dName);
     }
 }

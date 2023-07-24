@@ -8,6 +8,7 @@ namespace Abstractions
 {
     public interface IPerson : IContact
     {
-        public string EmailAddress { get;  }
+        public string Email { get; set; }
+        public string Phone { get; set; }  
     }
 }

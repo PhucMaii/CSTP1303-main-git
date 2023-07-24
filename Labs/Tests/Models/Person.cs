@@ -1,5 +1,4 @@
 ﻿using Abstractions;
-using ContactStore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +9,15 @@ namespace Models
 {
     public class Person : Contact, IPerson
     {
-        public string EmailAddress { get;}    
-        public Person(string id, string name, string email) : base(id, name) 
+        public string Email { get; set; }    
+        public  string Phone { get; set; }
+        public Person(string id, string name, string email, string phone) : base(id, name) 
         {
-            EmailAddress = email;
+            Email = email;
+            Phone = phone;
         }
+
+
     }
 
 }

@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\000461754\\.nuget\\packages\\": {},
+    "C:\\Users\\Bin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\000461754\\C#\\Labs\\Tests\\ContactStorageDiskServices\\ContactStorageDiskService.csproj",
+      "projectUniqueName": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactStorageDiskServices\\ContactStorageDiskService.csproj",
       "projectName": "ContactStorageDiskService",
-      "projectPath": "D:\\000461754\\C#\\Labs\\Tests\\ContactStorageDiskServices\\ContactStorageDiskService.csproj",
-      "packagesPath": "C:\\Users\\000461754\\.nuget\\packages\\",
-      "outputPath": "D:\\000461754\\C#\\Labs\\Tests\\ContactStorageDiskServices\\obj\\",
+      "projectPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactStorageDiskServices\\ContactStorageDiskService.csproj",
+      "packagesPath": "C:\\Users\\Bin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\ContactStorageDiskServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\000461754\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -59,8 +59,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\Abstractions.csproj": {
-              "projectPath": "D:\\000461754\\C#\\Labs\\Tests\\Abstraction\\Abstractions.csproj"
+            "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Bin\\Documents\\StudyInVCC\\C#\\CSTP1303-main-git\\Labs\\Tests\\Abstraction\\Abstractions.csproj"
             }
           }
         }
@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
