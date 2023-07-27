@@ -12,9 +12,11 @@ namespace Models
     public class Company : Contact, ICompany
     {
         private Dictionary<string, IDepartment> departmentContacts;
-        public Company(string id, string name ) : base( id, name ) 
+        private Dictionary<int, IPerson> employees;
+        public Company(int id, string name ) : base( id, name ) 
         {
             departmentContacts = new Dictionary<string, IDepartment>();
+            employees = new Dictionary<int, IPerson>();
         }  
 
         public void AddDepartment( IDepartment department )
@@ -31,5 +33,22 @@ namespace Models
         {
             return departmentContacts[dName];
         }
+
+        public void AddEmployee(IPerson employee)
+        {
+            employees.Add(employee.Id, employee);
+        }
+
+        public void RemoveEmployee(int employeeId)
+        {
+            employees.Remove(employeeId);
+        }
+
+        public IPerson GetEmployee(int employeeId)
+        {
+            return employees[employeeId];
+        }
+
+
     }
 }

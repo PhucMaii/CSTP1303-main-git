@@ -11,7 +11,7 @@ namespace Models
     {
         public string Email { get; set; }    
         public  string Phone { get; set; }
-        public Person(string id, string name, string email, string phone) : base(id, name) 
+        public Person(int id, string name, string email, string phone) : base(id, name) 
         {
             Email = email;
             Phone = phone;

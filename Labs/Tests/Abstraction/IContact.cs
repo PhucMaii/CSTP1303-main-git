@@ -8,7 +8,7 @@ namespace Abstractions
 {
     public interface IContact
     {
-        public string Id { get; }
+        public int Id { get; }
         public string Name { get; set; }
     }
 }

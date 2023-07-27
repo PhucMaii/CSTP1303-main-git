@@ -12,5 +12,10 @@ namespace Abstractions
         public void AddDepartment(IDepartment department);  
         public void RemoveDepartment(string dName);
         public IDepartment GetDepartment(string dName);
+
+        public void AddEmployee(IPerson person);
+        public void RemoveEmployee(int employeeId);
+        public IPerson GetEmployee(int employeeId);    
+        
     }
 }

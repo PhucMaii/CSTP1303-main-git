@@ -1,4 +1,5 @@
 ﻿using Abstractions;
+using System.Threading.Tasks.Dataflow;
 using System.Xml.Linq;
 
 namespace ContactStorageDiskService
@@ -38,9 +39,10 @@ namespace ContactStorageDiskService
             contacts[counter++] = person;
         }
 
-        public void Delete(ICompany company)
+        public void DeleteCompany(int id)
         {
-            int companyIndex = Array.IndexOf(contacts, company);
+            ICompany deleteCompany = GetCompanyById(id);
+            int companyIndex = Array.IndexOf(contacts, deleteCompany);
             if(companyIndex >= 0 )
             {
                 IContact[] newContacts = new IContact[size];
@@ -67,9 +69,10 @@ namespace ContactStorageDiskService
             }
         }
 
-        public void Delete(IPerson person)
+        public void DeletePerson(int id)
         {
-            int personIndex = Array.IndexOf(contacts, person);
+            IPerson deletePerson = GetPersonById(id);
+            int personIndex = Array.IndexOf(contacts, deletePerson);
 
             if (personIndex >= 0)
             {
@@ -96,7 +99,7 @@ namespace ContactStorageDiskService
             }
         }
 
-        public ICompany GetCompanyById(string id)
+        public ICompany GetCompanyById(int id)
         {
             foreach(var contact in contacts)
             {
@@ -117,7 +120,7 @@ namespace ContactStorageDiskService
             throw new Exception("Id Could Not Found");
         }
 
-        public IPerson GetPersonById(string id)
+        public IPerson GetPersonById(int id)
         {
             foreach (var contact in contacts)
             {
@@ -180,14 +183,14 @@ namespace ContactStorageDiskService
             throw new Exception("Name Could Not Found");
         }
 
-        public void UpdateName(string id, string name)
+        public void UpdateName(int id, string name)
         {
             IPerson person = GetPersonById(id);
             person.Name = name;
 
         }
         
-        public void UpdateDepartmentContact(string id, string dName, string email = "None", string phone = "None")
+        public void UpdateDepartmentContact(int id, string dName, string email = "None", string phone = "None")
         {
             ICompany company = GetCompanyById(id);
             var department = company.GetDepartment(dName);
@@ -208,19 +211,37 @@ namespace ContactStorageDiskService
             }
         }
 
-        public void UpdatePersonContact(string id, string email = "None", string phone = "None")
+        public void UpdatePersonEmail(int id, string email)
         {
             IPerson person= GetPersonById(id);
+
+            person.Email = email;
             
-            if(email != "None")
+        }
+        public void UpdatePersonPhone(int id, string phone)
+        {
+            IPerson person = GetPersonById(id);
+
+            person.Phone = phone;
+
+        }
+
+        public string Display()
+        {
+            string result = "";
+            foreach(IContact contact in contacts)
             {
-                person.Email = email;
+                IPerson person = contact as IPerson;
+                if (person != null)
+                {
+                    result += $"Person Name: {person.Name}\tPerson Email: {person.Email}\tPerson Phone Number: {person.Phone}\n";
+                }
+                else
+                {
+                    result += $"Company Name: {contact.Name}\n";
+                }
             }
-            if(phone != "None")
-            {
-                person.Phone = phone;
-            }
-            
+            return result;
         }
         public void ExpandContacts()
         {
